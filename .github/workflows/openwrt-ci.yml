@@ -5,12 +5,15 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-#schedule:
-#- cron: 0 8 * * *
+
 name: OpenWrt-CI
 
-on:[push, merge]
-
+on:
+  push:
+    branches:
+      - master
+  #schedule:
+    #- cron: 0 8 * * *
 permissions:
   contents: read
 
