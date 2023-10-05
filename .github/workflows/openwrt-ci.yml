@@ -9,12 +9,9 @@
 name: OpenWrt-CI
 
 on:
-  workflow_dispatch:
-    inputs:
-      param:
-        description: 'parameter'
-        required: false
-        default: ''
+  push: 
+    branches:
+      - master
   #repository_dispatch:
   #schedule:
     #- cron: 0 8 * * *
