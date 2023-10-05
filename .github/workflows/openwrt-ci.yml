@@ -62,7 +62,7 @@ jobs:
           CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_r33=y
           CONFIG_PACKAGE_6in4=y
           # CONFIG_PACKAGE_etherwake is not set
-          CONFIG_PACKAGE_frpc=y
+          # CONFIG_PACKAGE_frpc=y
           CONFIG_PACKAGE_ip6tables=y
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_kmod-ip6tables=y
